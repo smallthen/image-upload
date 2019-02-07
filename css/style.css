@@ -1,0 +1,111 @@
+html,body{
+        height: 100%;
+        margin: 0;
+        }
+        .upImgCom img{
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+        .imgWatch {
+            background: rgba(0, 0, 0, 0.7);
+            width: 100vw;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            z-index: 99; }
+            #watch.hide {
+            display: none; }
+            #watch.show {
+            display: block; }
+            #watch img {
+            position: absolute;
+            width: 100%;
+            height: auto;
+            max-height: 100%;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%); }
+            .imgWatch .imgClose {
+            position: absolute;
+            left: 3%;
+            top: 3%;
+            width: 0.8rem;
+            height: 0.8rem;
+            margin: auto;
+            background: url("../close.png") no-repeat center center;
+            background-size: 100% auto;
+            -webkit-background-size: 100% auto !important;
+            -moz-background-size: 100% auto !important;
+            -ms-background-size: 100% auto !important;
+            -o-background-size: 100% auto !important; }
+           .upImgCom .upImg {
+          float: left;
+          width: 1.5rem;
+          height: 1.5rem;
+          position: relative;
+          margin: 0 0.2rem 0.2rem 0; }
+         .upImgCom .upImg input {
+            position: absolute;
+            top: 0;
+            width: 0;
+            height: 0;
+            z-index: 1;
+            opacity: 0; }
+         .upImgCom .upImg img {
+            z-index: 2; }
+         .upImgCom .upImg .close {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: url("../close.png") no-repeat center center;
+            background-size: 100% auto;
+            -webkit-background-size: 100% auto !important;
+            -moz-background-size: 100% auto !important;
+            -ms-background-size: 100% auto !important;
+            -o-background-size: 100% auto !important;
+            width: 0.5rem;
+            height: 0.5rem;
+            z-index: 3; }
+       .upImgCom .uploadImg {
+          float: left;
+          width: 1.5rem;
+          height: 1.5rem;
+          background-color: #eaecf0;
+          position: relative; }
+         .upImgCom .uploadImg.hide {
+            display: none; }
+         .upImgCom .uploadImg input {
+            position: absolute;
+            top: 0;
+            opacity: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 2; }
+         .upImgCom .uploadImg .uploadButton {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            padding-top: 0.32rem; }
+           .upImgCom .uploadImg .uploadButton i {
+              display: block;
+              width: 0.48rem;
+              height: 0.48rem;
+              margin: 0 auto;
+              background: url("../add.png") no-repeat center center;
+              background-size: 100% auto;
+              -webkit-background-size: 100% auto !important;
+              -moz-background-size: 100% auto !important;
+              -ms-background-size: 100% auto !important;
+              -o-background-size: 100% auto !important; }
+           .upImgCom .uploadImg .uploadButton p {
+              color: #95A0B6;
+              font-size: 0.2rem;
+              margin-top: 0.08rem;
+              text-align: center; }
+       .upImgCom:after {
+          content: '';
+          display: block;
+          clear: both; }
