@@ -17,9 +17,12 @@
 </head>
 <body>
     <div class="upImgCom" id="allImg">
-        <div class="uploadImg" class=""><input type="file" name="uploadImg" accept="image/*" onchange="upload(this,'putImg')"><div class="uploadButton"><i></i><p>点击上传照片</p></div></div>
+        <div class="uploadImg" class=""><input type="file" name="uploadImg" accept="image/*" onchange="upload.putImg(this)"><div class="uploadButton"><i></i><p>点击上传照片</p></div></div>
     </div>
 
     <script src='./js/upload.js'></script>
+    <script>
+        upload.limit=3;
+    </script>
 </body>
 </html>
