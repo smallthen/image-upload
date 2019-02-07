@@ -33,7 +33,7 @@ html,body{
             width: 0.8rem;
             height: 0.8rem;
             margin: auto;
-            background: url("../close.png") no-repeat center center;
+            background: url("../images/close.png") no-repeat center center;
             background-size: 100% auto;
             -webkit-background-size: 100% auto !important;
             -moz-background-size: 100% auto !important;
@@ -58,7 +58,7 @@ html,body{
             position: absolute;
             top: 0;
             right: 0;
-            background: url("../close.png") no-repeat center center;
+            background: url("../images/close.png") no-repeat center center;
             background-size: 100% auto;
             -webkit-background-size: 100% auto !important;
             -moz-background-size: 100% auto !important;
@@ -94,7 +94,7 @@ html,body{
               width: 0.48rem;
               height: 0.48rem;
               margin: 0 auto;
-              background: url("../add.png") no-repeat center center;
+              background: url("../images/add.png") no-repeat center center;
               background-size: 100% auto;
               -webkit-background-size: 100% auto !important;
               -moz-background-size: 100% auto !important;
